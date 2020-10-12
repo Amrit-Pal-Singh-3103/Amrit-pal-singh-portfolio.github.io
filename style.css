@@ -290,7 +290,14 @@ order: 4;
     padding-bottom: 10vh;
 }
 
+.page-6{
+    background-color: #22252c;
+  
+}
+.page-7{
+    background-color: #313741;
 
+}
 .page-4 h1{
     color:rgba(8,218,162,1); 
     text-align: center;
@@ -320,7 +327,7 @@ background-color: black;
 .html{width: 90%; background-color: rgba(8,218,162,1);border-radius: 10px;}
 .css{width: 80%; background-color: rgba(8,218,162,1);border-radius: 10px;}
 .java{width: 60%; background-color: rgba(8,218,162,1);border-radius: 10px;}
-.dm{width: 50%; background-color: rgba(8,218,162,1);border-radius: 10px;}
+.dm{width: 70%; background-color: rgba(8,218,162,1);border-radius: 10px;}
 .html:hover{
     background-color:#6dffff ;
 }
@@ -370,7 +377,7 @@ background-color: black;
     .html{width: 90%; background-color: rgba(8,218,162,1);border-radius: 10px;}
     .css{width: 80%; background-color: rgba(8,218,162,1);border-radius: 10px;}
     .java{width: 60%; background-color: rgba(8,218,162,1);border-radius: 10px;}
-    .dm{width: 50%; background-color: rgba(8,218,162,1);border-radius: 10px;}
+    .dm{width: 70%; background-color: rgba(8,218,162,1);border-radius: 10px;}
     
 
 }
@@ -418,8 +425,23 @@ background-color: black;
       font-weight: bold;
   }
 
+
+
+.internship:hover{
+        font-size: 10vh;
+}
+.intern:hover{
+    font-size: 5vh;
+}
+
   @media screen and (max-width:767px)
   {
+    .intern:hover{
+        font-size: 2.5vh;
+    }
+      .internship:hover{
+        font-size: 6vh;
+}
     .containerss h1{
        
       padding-top: 2.5vh;
@@ -456,4 +478,47 @@ footer p{
     font-size: 1.3vh;
 }
 
+.projects{
+    background-color: #313741;
+    text-align: center;
+    color: rgba(8,218,162,1);
+    padding: 5vh 3vh 5vh 3vh;
+    
+}
+.projects h1{
+    padding-bottom: 3vh;
+}
+.projects p{
+    padding: 3vh 3vh;
+    font-size: 4vh;
+}
 
+.projects img:hover{
+    transform: scale(1.1);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+      
+    }
+    .projects p{
+       
+        font-size: 3vh;
+    }
+  }
