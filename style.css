@@ -226,6 +226,13 @@ order: 4;
     color: rgba(8,218,162,1);
     padding-bottom: 4vh;
 }
+.fa:hover{
+    color: #07F7F7 ;
+}
+.fas:hover{
+    color: #07F7F7 ;
+
+}
 .intrest p{
    padding-bottom: 5vh;
    color: white;
