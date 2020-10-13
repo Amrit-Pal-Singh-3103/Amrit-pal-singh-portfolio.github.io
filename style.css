@@ -305,6 +305,27 @@ order: 4;
     background-color: #313741;
 
 }
+/*Certificates*/
+.certificate{
+    padding-top: 5vh;
+    color: #08f7f5;
+}
+.certificate-name{
+    color: white;
+}
+.certi-centre {
+    transform: scale(0.8);
+}
+
+@media screen and (max-width:767px){
+    .certi-centre {
+        transform: scale(1);
+    }
+    .projects img:hover{
+        transform: scale(1);
+    }
+}
+/*Certificates*/
 .page-4 h1{
     color:rgba(8,218,162,1); 
     text-align: center;
